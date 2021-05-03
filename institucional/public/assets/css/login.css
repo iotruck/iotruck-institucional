@@ -1,0 +1,268 @@
+   /*Tela login*/
+
+.tela-login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.fundo-login {
+    width: 50%;
+    height: 100%;
+    background-image: url("../imagens/fundologin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 40px;
+    position: absolute;
+    cursor: default;
+}
+
+.fundo-login li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.fundo-login li a {
+    color: #F55100;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fundo-login img {
+    margin-top: 8%;
+    margin-left: 0;
+}
+
+.fundo-login h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #010A2C;
+}
+
+.fundo-login h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.formulario {
+    width: 50%;
+    height: 100%;
+    background: #010A2C;
+    float: right;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.btn {
+    width: 120px;
+    font-size: 25px;
+    margin-right: 50px;
+} 
+
+.btn:hover {
+    color: white;
+    border-left: solid #F97801 2px;
+}
+
+.btnactive {
+    color: white;
+    border-left: solid #F97801 2px;
+}
+
+.col-lg-2 {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.col-lg-2 input {
+    width: 260px;
+}
+
+
+.col-lg-3 {
+    padding-left: 38%;
+    padding-right: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .col-lg-3 {
+        padding-left: 38%;
+        margin-left: 6%;
+    }
+}
+        
+
+.col-lg-3 input {
+    width: auto;
+}
+
+@media screen and (min-width: 1280px){
+    .col-lg-3 input {
+        width: 230px;
+    }   
+}
+
+@media screen and (min-width: 1366px){
+    .col-lg-3 input {
+        width: 245px;
+    }   
+}
+
+@media screen and (min-width: 1420px){
+    .col-lg-3 input {
+        width: 260px;
+    }   
+}
+
+@media screen and (min-width: 1600px){
+    .col-lg-3 input {
+        width: 285px;
+    }   
+}
+
+@media screen and (min-width: 1800px){
+    .col-lg-3 input {
+        width: 330px;
+    }   
+}
+  
+.button-voltar{
+    background-color: #F97801;
+    height: 40px;
+    width: 155px;
+    margin-top: 2%;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.back-link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+#Cadastro {
+    margin-top: 1.0rem;
+}
+
+#Cadastro label {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+@media screen and (min-width: 1024px){
+    #Cadastro label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    #Cadastro label {
+        font-size: 15px;
+    }
+}
+        
+#Login {
+    margin-top: 18%;
+}
+
+#Login label {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+#Cadastro input {
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(218, 218, 218);
+    outline: 0;
+    font-size: 1.0rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+#Cadastro input:focus {
+    border-bottom: 2px solid #F97801;
+}
+
+#Login input {
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(218, 218, 218);
+    outline: 0;
+    font-size: 1.0rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-bottom: 1.0rem;
+}
+
+#Login input:focus {
+    border-bottom: 2px solid #F97801;
+}
+
+#Cadastro button {
+    background: #F55100;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    margin-left: 12%;
+    height: 32px;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+}
+
+.termos{
+    color: whitesmoke;
+    margin-left: 2%;
+}
+
+@media screen and (min-width: 1280px){
+    #Cadastro button {
+        width: 200px;
+        margin-left: 12%;
+        margin-top: 3%;
+    }
+}
+
+#Login button {
+    background: #F55100;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 260px;
+    height: 32px;
+    margin-top: 3%;
+    margin-left: 30%;
+    border-radius: 5px;
+    margin-left: 30%;
+    border: none;
+    font-weight: 500;
+    height: 50px;
+}
+
+@media screen and (min-width: 1024px){
+    #Login button {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    #Login button {
+        margin-left: 30%;
+    }
+}

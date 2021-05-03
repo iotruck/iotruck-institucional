@@ -1,0 +1,294 @@
+@media screen and (max-width: 1680px) {
+
+    .btn-entrar{
+        right: -26%;
+    }
+
+    .person{
+        height: 430px;
+        margin-left: 86%;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .btn-entrar{
+        right: -40%;
+    }
+
+    .person{
+        height: 415px;
+        margin-left: 98%;
+        margin-top: 3%
+    }
+    
+    .uteis {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    .person{
+        margin-left: 85%;
+        height: 470px;
+    }
+
+    .btn-entrar{
+        top: 30%;
+        right: -45%;
+    }
+
+    .texto {
+        top: 180px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .box-initial{
+        height: 610px;
+    }
+
+    .btn-entrar{
+        right: -77%;
+    }
+
+    .box-test h1 {
+        font-size: 45px;
+    }
+ 
+    .box-test span {
+        font-size: 60px;
+    }
+
+    .person{
+        height: 350px;
+        margin-left: 114%;
+        margin-top: 10%;
+    }
+
+    .texto{
+        font-size: 2.2rem;
+    }
+
+    .box-relationship {
+        margin-left: 5%;
+    }
+
+    .services {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .legenda{
+        font-size: 1.2rem;
+    }
+
+    .g3{
+        margin-left: 0%;
+    }
+
+    .box-contato{
+        width: 540px;
+        margin-left: 40%;
+    }
+
+    .uteis {
+        margin-top: -0.5%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .geometric-one{
+        display: none;
+    }
+
+    .btn-entrar{
+        right: -145%;
+    }
+
+    .btn-test {
+        margin-left: 17%;
+    }
+
+    .person {
+       display: none;
+    }
+
+    .map, .map-legenda {
+        margin-left: 8%;
+    }
+
+    .legenda {
+        font-size: 1.6rem;
+    }
+
+    .btn-motivation{
+        margin-left: 18%;
+    }
+
+    .plano{
+        margin-left: 4%;
+    }
+
+    .planoT {
+        margin-top: 10%;
+    }
+
+    .box-plans {
+        background-color: #E9EDEE;
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    .box-contato {
+        display: none;
+        width: 700px;
+        height: 630px;
+        margin-left: 0%;
+        padding-bottom: 5%;
+        z-index: 1;
+    }
+
+    .box-contato h1 {
+        margin-top: 0%;
+    }
+
+    .img-chat{
+        display: block;
+    }
+
+    #box-close{
+        display: block;
+    }
+
+    .uteis {
+        float: right;
+        position: absolute;
+        margin-left: 25%;
+        margin-top: -1.5%;
+    }
+
+}
+
+@media screen and (max-width: 425px) { 
+
+    .map{
+        padding: 25px;
+        margin: 0;
+    }
+
+    .gps{
+        width: 80px;
+    }
+
+    .map-legenda {
+        margin-left: 8%;
+        width: 90%;
+    }   
+
+    .geometric-two{
+        display: none;
+    }
+
+    .btn-entrar{
+        position: static;
+        width: 150px;
+    }
+
+    .person{
+        display: none;
+    }
+
+    .texto{
+        font-size: 2rem;
+    }
+
+    .btn-test {
+        margin-left: 1.5%;
+    }
+
+    .box-test h1 {
+        font-size: 30px;
+    }
+
+    .plano {
+        margin-left: 13%;
+        margin-top: 10%;
+    }
+
+    .titulo {
+        font-size: 28px;
+        margin-top: 20%;
+    }
+    
+    .valores {
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .valores p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .valores img {
+        height: 75px;
+        width: 55px;
+        margin-top: 17%;
+    }
+    .rodape{
+        height: 465px;
+    }
+
+    .infos{
+        height: 400px;
+    }
+
+    .infos-contato img{
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 290px;
+    }
+
+    .box-contato {
+        display: none;
+        width: 400px;
+        height: 650px;
+        margin-left: 0%;
+        margin-top: 0%;
+        padding: 10px 30px 0px;
+        z-index: 1;
+    }
+
+    .img-chat{
+        display: block;
+    }
+
+    #box-close{
+        display: block;
+    }
+
+    .uteis{
+        margin-left: 45%;
+    }
+
+    .nave{
+        margin-top: 5.3%;
+    }
+
+    .link li a {
+        font-size: 20px;
+     }
+}
+
+
+
+
+
+

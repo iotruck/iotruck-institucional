@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/imagens/coruja.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivity.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+    <title>IOTRUCK</title>
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="Nós focamos no cadastro de rotas e rastreamento de caminhões com visualização remota de entregas, 
+    pois a falta de logística e monitoramento das rotas para empresa de pequeno e médio porte ainda é o maior problema no desenvolvimento 
+    dessas empresas e para a logística no nosso país, confira abaixo como está nosso desenvolvimento e a nossa visão para o futuro." />
+    <meta name="keywords" content="monitoração de caminhões, iot, caminhões, one page, iotruck" />
+    <meta name="robots" content="index, follow">
+    <meta name="author"
+        content="iotruck, Beatriz Oziel, Lucas Felipe, José Lucas, Jorge Lucas, Gabriel Carrera, Igor Rafael, Bandtec">
+
+</head>
+
+<body>
+
+    <div id="home">
+        <div class="box-initial">
+            <img class="geometric-one" src="assets/imagens/geometric_one.png" alt="">
+            <img class="geometric-two" src="assets/imagens/geometric_two.png" alt="">
+            <div class="container">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="#">
+                        <div class="icon"></div>
+                    </a>
+                    <form class="form-inline">
+                        <a class="btn-entrar btn my-2 my-sm-0 col-lg-4 col-sm-8" href="login.html">Entrar</a>
+                    </form>
+                </nav>
+                <div class="row">
+                    <p class="texto col-lg-6 col-sm-10">ENTREGAR CONFIANÇA <br>
+                        E SEGURANÇA PARA QUEM <br>
+                        CONFIOU NA SUA MARCA PRIMEIRO. <br>
+                        ISSO É <span style="color: #F97801; font-style: italic;">IOTRUCK.</span><br>
+                        <button class="col-6 btn-assign" onclick="planos()">Assine agora</button>
+                    </p>
+                    <div class="col-lg-12 col-6">
+                        <img class="person" src="assets/imagens/caminhoneiroinst.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <div class="container">
+                <div class="box-map col-12">
+                    <div class="row">
+                        <div id="map-animation">
+                            <span id="span1"> </span>
+                            <span id="span2"> </span>
+                            <span id="span3"> </span>
+                            <span id="span4"> </span>
+                            <span id="span5"> </span>
+                            <img class="map col-sm-2 col-md-10 col-xl-4 col-lg-6" src="./assets/imagens/mapa.jpg"
+                            alt="mapa iotruck" id="mapa-iotruck">
+                        </div>
+                        <div class="col-md-10 col-xl-6 map-legenda col-lg-4">
+                            <div class="row col-12">
+                                <span class="gps col-md-2 col-xl-2 col-lg-3"> </span>
+                                <div class="legenda col-8"> Monitore em tempo real </div>
+                            </div>
+                            <div class="row col-12">
+                                <span class="gps col-md-2 col-xl-2 col-lg-3"> </span>
+                                <div class="legenda col-8"> Controle todas as informações </div>
+                            </div>
+                            <div class="row col-12">
+                                <span class="gps col-md-2 col-xl-2 col-lg-3"> </span>
+                                <div class="legenda col-8"> Programe suas entregas </div>
+                            </div>
+                            <div class="row col-12">
+                                <button class="col-8 col-lg-10 btn-motivation" onclick="motivation()">Entenda nossas
+                                    motivações</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-test col-12">
+                    <div class="row">
+                        <h1>O MOTORISTA <span style="color: #F55100;"> DE LÁ </span></h1> <br>
+                        <h1>O ANALISTA <span style="color: #AAC3F4"> DAQUI </span></h1>
+                    </div>
+
+                    <div class="row g3">
+                        <div class="col-lg-4">
+                            <img src="assets/imagens/lupa.png">
+                            <h5>MAIS SEGURANÇA
+                                COM PRIVACIDADE</h5>
+                            <p>
+                                Consiga monitorar em <br>
+                                tempo real com a ajuda <br>
+                                de um mapa e alertas.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 middle">
+                            <img src="assets/imagens/pessoa.png">
+                            <h5>CONTROLE SEU <br>
+                                TIME MAIS RÁPIDO</h5>
+                            <p>
+                                Tenha acesso a cadastros <br>
+                                dos caminhoneiros e de <br>
+                                caminhôes, melhorando <br>
+                                ainda mais sua logística das <br>
+                                viagens.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 right">
+                            <img src="assets/imagens/relogio.png">
+                            <h5>OTIMIZE O SEU <br>
+                                TEMPO</h5>
+                            <p>
+                                Mantenha as reais e necessárias <br>
+                                informações em um só lugar.
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <button class="col-md-8 col-lg-4 btn-test" onclick="entrar()">Quero testar por 07 dias
+                                grátis</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-plans" id="planos">
+            <div class="container">
+                <div class="row">
+                    <h1 class="titleP">NOSSOS PLANOS</h1>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4 col-lg-2 plano" onclick="location.href ='login.html'">
+                        <div class="box1">
+                            <img src="./assets/imagens/plano basico.png">
+                            <div class="row">
+                                <i>PLANO</i>
+                            </div>
+                            <div class="row">
+                                <div class="desc"> BÁSICO </div>
+                            </div>
+                        </div>
+
+                        <div class="sobre">
+                            <div class="row">
+                                Até 20 caminhões <br>
+                                e 10 analistas.
+                            </div>
+                        </div>
+
+                        <div class="row valor">
+                            <h5>R$</h5>
+                            <h1>90,00</h1>
+                            <h5>/mês</h5>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-lg-2 plano" onclick="window.location.href ='login.html'">
+                        <div class="box2">
+                            <img src="assets/imagens/plano classico.png">
+                            <div class="row">
+                                <i>PLANO</i>
+                            </div>
+                            <div class="row">
+                                <div class="desc"> CLASSIC </div>
+                            </div>
+                        </div>
+
+                        <div class="sobre">
+                            <div class="row">
+                                Até 50 caminhões <br>
+                                e 15 analistas.
+                            </div>
+                        </div>
+
+                        <div class="row valor">
+                            <h5>R$</h5>
+                            <h1>120,00</h1>
+                            <h5>/mês</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-2 planoT id" onclick="location.href ='login.html'">
+                        <div class="box3">
+                            <img src="assets/imagens/trucker.png">
+                            <div class="row">
+                                <i>PLANO</i>
+                            </div>
+                            <div class="row">
+                                <div class="desc"> TRUCKER </div>
+                            </div>
+                        </div>
+
+                        <div class="sobre">
+                            <div class="row" style="color: whitesmoke;">
+                                Ilimitado para caminhões <br>
+                                e analistas.
+                            </div>
+                        </div>
+
+                        <div class="row valor" style="color: whitesmoke;">
+                            <h5>R$</h5>
+                            <h1>160,00</h1>
+                            <h5>/mês</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="valores" id="valores">
+            <div class="container-xl">
+                <div class="box-relationship col-md-10">
+                    <img src="assets/imagens/coruja.png">
+                    <div class="row">
+                        <div class="titulo">NOSSO COMPROMISSO É COM <span> VOCÊ </span></div>
+                    </div>
+                    <div class="row">
+                        <p>Acreditamos que a tecnologia e nossas soluções podem ser o primeiro passo de uma grande <br>
+                            parceria.
+                            Assim nasce a iotruck, um software que promete entregar uma melhor e mais <br> completa
+                            ajuda a
+                            parceiros
+                            que dependem do transporte de cargas terrestre, garantindo maior <br> segurança,
+                            monitoramento e
+                            controle
+                            de maneira acessível.</p>
+                        <br>
+                    </div>
+                    <button onclick="reclame()" class="col-11 col-lg-5 col-md-6 btn-complain">Acesse nosso <i> reclame
+                            aqui </i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="infos">
+            <div class="container">
+                <div class="infos-contato">
+
+                    <div class="row">
+                        <h1>ENTRE EM CONTATO</h1>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <h4>AV DAS SPRINTS, 456 1° ANDAR</h4>
+                        <br>
+                        <h4> CONTATE@IOTRUCK.COM.BR </h4>
+                        <br>
+                        <h4>+55 11 33456789</h4>
+                        <br>
+                        <img src="assets/imagens/contato.png">
+                        <span onclick="messageButton()" class="img-chat"></span>
+                    </div>
+                </div>
+
+                <div id="box-show" class="box-contato">
+                    <div class="row">
+                        <span id="box-close" onclick="closeMessage()">X</span>
+                        <h1> MANDE UMA MENSAGEM </h1>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input placeholder="Seu nome ou nome da empresa">
+                        <br>
+                        <input placeholder="E-mail para contato">
+                        <br>
+                        <input placeholder="Sua mensagem - entraremos em contato logo!" style="height: 250px;">
+                        <br>
+                        <button>ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape">
+            <div class="container">
+                <div class="link col-10">
+                    <div class="col col-sm nave">
+                        <h3>Navegação</h3>
+                        <li> <a class="transicao" href="#services"> Serviços </a> </li> <br>
+                        <li> <a class="transicao" href="#planos"> Planos </a> </li> <br>
+                        <li> <a class="transicao" href="#valores"> Sobre nós </a> </li> <br>
+                        <li> <a class="transicao" href="login.html"> Cadastro/login </a> </li>
+                    </div>
+
+                    <div class="col col-sm uteis">
+                        <h3> Links úteis </h3>
+                        <li> <a class="transicao"> Trabalhe conosco </a> </li> <br>
+                        <li> <a class="transicao"> Podcast </a> </li> <br>
+                        <li> <a class="transicao"> Políticas da empresa </a> </li> <br>
+                        <li> <a class="transicao"> Você dev </a> </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="./assets/scripts/app.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
